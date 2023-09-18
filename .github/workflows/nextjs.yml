@@ -82,7 +82,7 @@ jobs:
 
       - id: commit
         name: Get commit Hash
-        uses: pr-mpt/actions-commit-hash@v2
+        uses: pr-mpt/actions-commit-hash@v3
 
       - name: Init git config
         run: |
