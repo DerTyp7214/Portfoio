@@ -46,7 +46,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
 
       - name: Setup Node LTS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
 
@@ -95,7 +95,7 @@ jobs:
           sudo apt-get install -y build-essential libvips libvips-dev libxi-dev libxext-dev libxt-dev libgl-dev
 
       - name: Setup Node LTS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
 
