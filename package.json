@@ -51,7 +51,7 @@
     "remark-breaks": "^3.0.3",
     "remark-parse": "^10.0.1",
     "sharp": "^0.32.0",
-    "typescript": "5.1.6",
+    "typescript": "5.3.2",
     "unified": "^10.1.2",
     "webpack": "^5.88.2",
     "wikijs": "^6.4.1"
